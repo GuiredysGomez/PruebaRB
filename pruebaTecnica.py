@@ -44,7 +44,7 @@ driver = webdriver.Chrome()  # Inicializa el controlador de Chrome
 audit_form_url = 'https://roc.myrb.io/s1/forms/M6I8P2PDOZFDBYYG'  # URL del formulario de auditoría
 
 # Recorre cada fila en la hoja de Excel (los datos comienzan en la fila 2)
-for row_num in range(2, 46):  
+for row_num in range(2, ws.range(f'A{ws.cells.last_cell.row}').end('up').row + 1):  
     process = ws.cells(row_num, 1).value  # Obtiene el proceso de la columna A
     process_dict={
         'Operaciones': 'operaciones',
