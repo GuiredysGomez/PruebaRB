@@ -83,3 +83,7 @@ Uso:
 Reemplace la ruta del archivo de Excel (excel_file) en el código con la ruta real del archivo que desea utilizar.
 Asegúrese de tener las bibliotecas necesarias instaladas en su entorno de Python.
 En el módulo confi y guarde las credenciales de correo electrónico en las variables notification_email y passw (Tener en cuenta que se usa el host de gmail en este script, por lo que el correo debe ser gmail).
+
+# Bonus
+Se adjunta un archivo .Json exportado desde la aplicacion Rocketbot Studio.
+Dicho archivo contiene el robot "pruebaTecnicaConRocketbot" y realiza lo anteriormente mencionado en estedocumento.
