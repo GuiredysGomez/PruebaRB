@@ -113,7 +113,7 @@ for row_num in range(2, ws.range(f'A{ws.cells.last_cell.row}').end('up').row + 1
        # Llama subrutina de envio de mail
         enviar(dest, asunto, cuerpo)  # Envía el correo electrónico
 
-    elif process_status == 'Pendientes':
+    elif process_status == 'Pendiente':
         continue  # Ignora los procesos con estado "Pendientes"
 
 wb.close()
